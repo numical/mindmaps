@@ -676,7 +676,16 @@
 <node CREATED="1433495826705" ID="ID_951148732" MODIFIED="1433495837326" TEXT="access to the private data is thus possible only because of a closure within the larger module"/>
 </node>
 <node CREATED="1446906148401" ID="ID_1800868326" MODIFIED="1446906155383" TEXT="asynchronous">
-<node CREATED="1446906156782" ID="ID_1320376282" MODIFIED="1446906164924" TEXT="continuation passing style">
+<node CREATED="1474366248601" ID="ID_937463411" MODIFIED="1474366289184" TEXT="theory">
+<node CREATED="1474366257841" ID="ID_205729854" MODIFIED="1474366286173" TEXT="time is the most important element of state"/>
+</node>
+<node CREATED="1474365954775" FOLDED="true" ID="ID_1417736215" MODIFIED="1474366246749" TEXT="callbacks">
+<node CREATED="1474365972388" ID="ID_324043895" MODIFIED="1474365975976" TEXT="2 core issues">
+<node CREATED="1474365977406" ID="ID_910271218" MODIFIED="1474365981672" TEXT="inversion of control"/>
+<node CREATED="1474365982707" ID="ID_1414110656" MODIFIED="1474365993106" TEXT="not reason-able"/>
+</node>
+</node>
+<node CREATED="1446906156782" ID="ID_1320376282" MODIFIED="1474366117652" TEXT="continuation passing style">
 <node CREATED="1446906166543" ID="ID_1337500781" MODIFIED="1446906185224" TEXT="no function should ever return to its caller"/>
 <node CREATED="1446906186363" ID="ID_986198100" MODIFIED="1446906231664" TEXT="instead of language semantics defining where control goes after function, instead explicitly pass the next computation">
 <node CREATED="1446906231664" ID="ID_1050018899" MODIFIED="1446906241020" TEXT="aka current continuation"/>
@@ -686,6 +695,13 @@
 <node CREATED="1446906479178" ID="ID_1763301185" MODIFIED="1446906508635" TEXT="e.g. try/catch &gt; continuation( error, ok )"/>
 </node>
 </node>
+</node>
+<node CREATED="1474366049453" ID="ID_1027761585" MODIFIED="1474366195124" TEXT="thunk">
+<node CREATED="1474366055486" ID="ID_689541312" MODIFIED="1474366074586" TEXT="a function that has everything it needs to return"/>
+<node CREATED="1474366097901" ID="ID_853579939" MODIFIED="1474366107882" TEXT="a wrapper around a value"/>
+<node CREATED="1474366076381" ID="ID_1253934308" MODIFIED="1474366081330" TEXT="idempotent"/>
+<node CREATED="1474366586261" ID="ID_329029635" MODIFIED="1474366637960" TEXT="lazy or eager (when do actual work - on setup or call)"/>
+<node CREATED="1474366302121" ID="ID_1597995930" MODIFIED="1474366310541" TEXT="which leads to..."/>
 </node>
 <node CREATED="1447164079034" ID="ID_52842036" MODIFIED="1447164086807" TEXT="Promises">
 <node CREATED="1447164088752" ID="ID_1797732392" MODIFIED="1447164123765" TEXT="vs callback">
