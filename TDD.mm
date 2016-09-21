@@ -1,0 +1,50 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1427911589427" ID="ID_73247714" MODIFIED="1427911599421" TEXT="TDD">
+<node CREATED="1427911600732" ID="ID_1224285828" MODIFIED="1427911602138" POSITION="right" TEXT="meta">
+<node CREATED="1427911604745" ID="ID_649294025" MODIFIED="1427911613949" TEXT="Nat Pryce"/>
+<node CREATED="1427911616419" ID="ID_718909730" MODIFIED="1427911620169" TEXT="BCS talk"/>
+<node CREATED="1427911620566" ID="ID_1403352950" MODIFIED="1427912488594" TEXT="01/04/2015"/>
+</node>
+<node CREATED="1427911629287" ID="ID_466769589" MODIFIED="1427911947796" POSITION="right" TEXT="design">
+<node CREATED="1427911637686" ID="ID_297779741" MODIFIED="1427911658000" TEXT="testing led to UI design as well as code design changes"/>
+<node CREATED="1427911658438" ID="ID_1476320564" MODIFIED="1427911668548" TEXT="inconsistent UI makes UI testing difficult"/>
+<node CREATED="1427911694428" ID="ID_46286847" MODIFIED="1427911725039" TEXT="&gt; design (UI and code) with testing in mind"/>
+</node>
+<node CREATED="1427912184675" ID="ID_896027319" MODIFIED="1427912537816" POSITION="right" TEXT="takeaways">
+<node CREATED="1427912227793" ID="ID_513216410" MODIFIED="1427912245231" TEXT="test automation is a search problem">
+<node CREATED="1427912247556" ID="ID_734221886" MODIFIED="1427912250009" TEXT="find bugs"/>
+<node CREATED="1427912250489" ID="ID_1211968801" MODIFIED="1427912259786" TEXT="instead of asserting examples"/>
+<node CREATED="1427912305525" ID="ID_952405306" MODIFIED="1427912328479" TEXT="http://lcamtuf.coredump.cx/afl"/>
+</node>
+<node CREATED="1427912414074" ID="ID_1779026953" MODIFIED="1427912428747" TEXT="negative testing finds lots more bugs"/>
+<node CREATED="1427912700313" ID="ID_1186543545" MODIFIED="1427912762489" TEXT="organizational structure metrics better indicator than software metrcis at predicting code quality"/>
+</node>
+<node CREATED="1427912539706" ID="ID_1062577056" MODIFIED="1427912543409" POSITION="right" TEXT="methinks">
+<node CREATED="1427912544966" ID="ID_1178358441" MODIFIED="1427912555592" TEXT="argument from functional">
+<node CREATED="1427912557915" ID="ID_690805785" MODIFIED="1427912677282" TEXT="we&apos;re better at anticipating what we do want to do than consider what we don&apos;t want"/>
+</node>
+<node CREATED="1427913495341" ID="ID_1812825811" MODIFIED="1427913505748" TEXT="tests must/should be pure functional"/>
+</node>
+<node CREATED="1427911849821" ID="ID_754414933" MODIFIED="1427911855119" POSITION="left" TEXT="java specifics">
+<node CREATED="1427911856747" ID="ID_434303841" MODIFIED="1427911885015" TEXT="unchecked exceptions can cause much code left in undefined state"/>
+<node CREATED="1427911668979" ID="ID_932844694" MODIFIED="1427912122453" TEXT="lack of first class functions make composing test user actions difficult">
+<arrowlink DESTINATION="ID_1257654565" ENDARROW="Default" ENDINCLINATION="33;0;" ID="Arrow_ID_287606391" STARTARROW="None" STARTINCLINATION="33;0;"/>
+</node>
+</node>
+<node CREATED="1427911986395" ID="ID_1057587445" MODIFIED="1427911988473" POSITION="left" TEXT="functional">
+<node CREATED="1427912071173" ID="ID_1257654565" MODIFIED="1427912122453" TEXT="first class functions enable composability for building up test actions">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1257654565" ENDARROW="Default" ENDINCLINATION="33;0;" ID="Arrow_ID_287606391" SOURCE="ID_932844694" STARTARROW="None" STARTINCLINATION="33;0;"/>
+</node>
+<node CREATED="1427911992379" ID="ID_1469996779" MODIFIED="1427911999520" TEXT="property based tests">
+<node CREATED="1427912041252" ID="ID_623672063" MODIFIED="1427912053034" TEXT="good at picking up edge cases"/>
+<node CREATED="1427912053698" ID="ID_1347629640" MODIFIED="1427912060276" TEXT="random inputs"/>
+</node>
+</node>
+<node CREATED="1427912824220" ID="ID_1716809321" MODIFIED="1427912879640" POSITION="left" TEXT="specification by example">
+<node CREATED="1427912843508" ID="ID_139866668" MODIFIED="1427912848227" TEXT="1. testing"/>
+<node CREATED="1427912848647" ID="ID_1674564022" MODIFIED="1427912859695" TEXT="2. living document"/>
+<node CREATED="1427912860193" ID="ID_302780855" MODIFIED="1427912866850" TEXT="3. define through examples"/>
+</node>
+</node>
+</map>
